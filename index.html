@@ -14,6 +14,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Link de icons bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,8 +23,8 @@
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="/"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <img src="assets/logo" alt="Logo" width="40">
-                <span class="fs-4">Simple header</span>
+                <img src="assets/logoG.jpg" alt="Logo" width="25">
+                <span class="fs-4">Mi portafolio</span>
             </a>
 
             <ul class="nav nav-pills">
@@ -36,14 +37,13 @@
         </header>
 
 <section id="sobre-mi">
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center hero-image">
         <img class="d-block mx-auto mb-4" src="assets/gaby.jpg" width="300" >
         <h1 class="display-5 fw-bold text-body-emphasis">Gaby Elena Arteaga Ochoa</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Soy una apasionada ingeniera bioquímica con una creciente habilidad en HTML y CSS. Mi formación en biociencias me ha proporcionado una sólida base en laboratorios y experimentación. Siempre ansío aprender y en mi tiempo libre, me deleito con la creación de postres mientras disfruto de series. Actualmente, estoy en busca de oportunidades profesionales en el campo de la ingeniería bioquímica.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-            <a href="facebook.com">
+            <a href="mailto:gabyelena8a@gmail.com">
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contactame</button>
             </a>   
           </div>
@@ -80,35 +80,81 @@
         <h2 class="pb-2 border-bottom">Habilidades</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-1">
+              <svg class="bi" width="1em" height="1em"><use ></use><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+              </svg></svg>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
+            <h3 class="fs-2 text-body-emphasis">Desarrollo web y diseño</h3>
+            <p> Durante bootcamp con Tecnolochicas aprendí habilidades de HTML, CSS, Javascript, diseño responsivo, creación de sitios web desde cero y ponerlos en .</p>
+            <a href="https://silly-ganache-c074c8.netlify.app/" class="icon-link">
+              Visita una de mis páginas web
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-1">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+              </svg></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Desarrollo de Software</h3>
+            <p> Durante bootcamp con Tecnolochicas aprendí a utilizar control de versiones (Git).</p>
+            <a href="https://github.com/GabyArteaga" class="icon-link">
+              Visita mi perfil en Github
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-1">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cookie" viewBox="0 0 16 16">
+                <path d="M6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm4.5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-.5 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
+                <path d="M8 0a7.963 7.963 0 0 0-4.075 1.114c-.162.067-.31.162-.437.28A8 8 0 1 0 8 0Zm3.25 14.201a1.5 1.5 0 0 0-2.13.71A7.014 7.014 0 0 1 8 15a6.967 6.967 0 0 1-3.845-1.15 1.5 1.5 0 1 0-2.005-2.005A6.967 6.967 0 0 1 1 8c0-1.953.8-3.719 2.09-4.989a1.5 1.5 0 1 0 2.469-1.574A6.985 6.985 0 0 1 8 1c1.42 0 2.742.423 3.845 1.15a1.5 1.5 0 1 0 2.005 2.005A6.967 6.967 0 0 1 15 8c0 .596-.074 1.174-.214 1.727a1.5 1.5 0 1 0-1.025 2.25 7.033 7.033 0 0 1-2.51 2.224Z"/>
+              </svg></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Trabajo en laboratorio</h3>
+            <p>Manejo de autoclave, espectrofotómetro, balanza, campana de flujo laminar, cultivo bacterias y hongos, análisis en plantas.</p>
+            <a href="https://ira.cinvestav.mx/biotecnologiabioquimica/dra-silvia-valdes/bioquimica-y-biologia-molecular-de-proteinas/" class="icon-link">
+              Mi equipo de trabajo en CINVESTAV
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-1">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+              </svg></svg>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
+            <h3 class="fs-2 text-body-emphasis">Habilidades técnicas</h3>
+            <p>Resolución de problemas, trabajo en equipo, comunicación efectiva, adaptabilidad, aprendizaje rápido.</p>
+            <a href="https://ira.cinvestav.mx/biotecnologiabioquimica/dra-silvia-valdes/bioquimica-y-biologia-molecular-de-proteinas/" class="icon-link">
+              Call to a
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-1">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+              </svg></svg>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
+            <h3 class="fs-2 text-body-emphasis">Educación</h3>
+            <p>Ingeniería Bioquímica con especilidad en Biotecnología. Conocimientos en genética, biología molecular, operaciones unitarias, calidad.</p>
+            <a href="https://ira.cinvestav.mx/biotecnologiabioquimica/dra-silvia-valdes/bioquimica-y-biologia-molecular-de-proteinas/" class="icon-link">
+              Call to a
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-1">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+              </svg></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Cursos, certificaciones e idiomas.</h3>
+            <p>ISO 9001:2015 (SGC), ISO 19011:2018 (Auditor Interno). 
+              Inglés (intermedio), Alemán (principiante).</p>
+            <a href="https://ira.cinvestav.mx/biotecnologiabioquimica/dra-silvia-valdes/bioquimica-y-biologia-molecular-de-proteinas/" class="icon-link">
+              Call to a
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
@@ -306,7 +352,7 @@
 
 
 
-
+<!-- Link a el código de Js de bootsrap para que funcionen los elementos dinámicos carrusel, etc -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
