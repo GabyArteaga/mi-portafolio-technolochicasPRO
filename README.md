@@ -1,6 +1,6 @@
 # Portafolio personal: Tecnolochicas PRO
 
-Este proyecto fue creado durante el bootcamp Technolochicas PRO, es una página web responsiva (adaptable a diversos dispositivos).
+Este proyecto fue creado durante el bootcamp Tecnolochicas PRO, es una página web responsiva (adaptable a diversos dispositivos).
 
 
 El propósito de la creación de este sitio web es mostrar el portafolio de proyectos de la desarrolladora y su experiencia al rededor del área. 
