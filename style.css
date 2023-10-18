@@ -1,9 +1,44 @@
 .hero-image {
-    background-image: url("assets/wallpaper-acuarela.jpg"); /* The image used */
+    background-image: url("assets/wallpaper-floresitas1.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     height: auto; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-
   }
+
+/* Cambia el color y la decoración de los enlaces  */
+a.icon-link {
+  color: #395B50; /* Cambia #ff0000 al color que desees */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Cambia el color de los enlaces  */
+a.icon-link:hover {
+  color: #519872; /* Cambia #00ff00 al color que desees en hover */
+  text-decoration: underline; /* Agrega subrayado en hover si lo deseas */
+}
+
+.proyecto-image {
+  background-image: url("assets/wallpaper-floresitas1.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.carousel-container {
+  max-width: 800px; /* Tamaño máximo del contenedor del carrusel */
+  margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.carousel {
+  max-height: 500px; /* Tamaño máximo del carrusel */
+}
+
+.carousel-item {
+  background: url('assets/fondo-carrousel.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 300px; /* Altura máxima del carrusel */
+}
